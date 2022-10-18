@@ -14,7 +14,6 @@
 		406075DE28EE2E5C008C11D7 /* SimpleQRCodeGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406075DD28EE2E5C008C11D7 /* SimpleQRCodeGeneratorTests.swift */; };
 		406075E828EE2E5C008C11D7 /* SimpleQRCodeGeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406075E728EE2E5C008C11D7 /* SimpleQRCodeGeneratorUITests.swift */; };
 		406075EA28EE2E5C008C11D7 /* SimpleQRCodeGeneratorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406075E928EE2E5C008C11D7 /* SimpleQRCodeGeneratorUITestsLaunchTests.swift */; };
-		406075F728EE3B36008C11D7 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = 406075F628EE3B36008C11D7 /* AppIcon.appiconset */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +44,6 @@
 		406075E328EE2E5C008C11D7 /* SimpleQRCodeGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleQRCodeGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		406075E728EE2E5C008C11D7 /* SimpleQRCodeGeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleQRCodeGeneratorUITests.swift; sourceTree = "<group>"; };
 		406075E928EE2E5C008C11D7 /* SimpleQRCodeGeneratorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleQRCodeGeneratorUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		406075F628EE3B36008C11D7 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcon.appiconset; sourceTree = SOURCE_ROOT; };
 		40A9212128F7EF26002D1EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,7 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				40A9212128F7EF26002D1EF7 /* Info.plist */,
-				406075F628EE3B36008C11D7 /* AppIcon.appiconset */,
 				406075CC28EE2E5A008C11D7 /* SimpleQRCodeGeneratorApp.swift */,
 				406075CE28EE2E5A008C11D7 /* ContentView.swift */,
 				406075D028EE2E5C008C11D7 /* Assets.xcassets */,
@@ -237,7 +234,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				406075D428EE2E5C008C11D7 /* Preview Assets.xcassets in Resources */,
-				406075F728EE3B36008C11D7 /* AppIcon.appiconset in Resources */,
 				406075D128EE2E5C008C11D7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
