@@ -35,8 +35,11 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+*.xcworkspace
 project
 .project
+
+
 # Google Stuff
 ######################
 *.plist

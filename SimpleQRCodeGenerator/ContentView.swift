@@ -186,6 +186,7 @@ struct ContentView: View {
                     .sheet(isPresented: $isShowingMailView) {
                         MailView(result: self.$result)
                     }
+                    
                 
                     HStack() {
                         Spacer()
