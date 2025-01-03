@@ -12,18 +12,11 @@ import CoreImage.CIFilterBuiltins
 
 struct ContentView: View {
     
-    let version: String = "1.0.1"
+   // let version: String = "1.3"
+    let year: String = "2025"
+    let nsObject: AnyObject? = Bundle.main.infoDictionary!["CFBundleShortVersionString"] as AnyObject
     
-    let titleText: String = "QR Code Generator"
-    let instructionsTitle: String = "Was musst du machen, um deinen QR Code zu erhalten?"
-    let instructionsText: String = "1. Schreibe den Text, den du im QR Code codiert haben möchtest, in das Textfeld oben. Der QR Code ändert sich direkt während der Eingabe.\n\n2. Mit dem Button 'In Fotos speichern' passiert gebau das was drauf steht, der QR Code wird so wie er ist, als Bild, in der 'Fotos' App abgelegt, von dort aus kannst du ihn per Mail, iMessage, WhatsApp oder was auch immer verschicken."
-    let yourDataTitle: String = "Deine Daten sind mir egal ..."
-    let yourDataText: String = "... und deswegen speichert die App absolut keine persönlichen Daten, weder in der App, noch auf irgendeinem Server. Lediglich ein Foto von dem QR Code wird in der 'Fotos' App abgelegt, wenn es gewollt ist (ein Screenshot geht natürlich auch)."
-    let contactText: String = "Bei Fragen und Anregungen, schickt mir ne E-Mail"
-    let saveToPhotosText: String = "In Fotos speichern"
-    let savedText: String = "Der QR Code wurde in Fotos gespeichert"
-    
-    @State private var placeholderText = "Was soll codiert werden?"
+    @State private var placeholderText = "placeholder"
     @State private var textToEncode = ""
     @State private var showingAlert = false
     @FocusState private var focusedField: Field?
@@ -35,9 +28,24 @@ struct ContentView: View {
         case textToEncode
     }
     
+    func generateQRCode(from string: String) -> UIImage? {
+        let data = string.data(using: String.Encoding.ascii)
+        if let QRFilter = CIFilter(name: "CIQRCodeGenerator") {
+            QRFilter.setValue(data, forKey: "inputMessage")
+            guard let QRImage = QRFilter.outputImage else {return nil}
+            
+            let transformScale = CGAffineTransform(scaleX: 5.0, y: 5.0)
+            let scaledQRImage = QRImage.transformed(by: transformScale)
+            
+            return UIImage(ciImage: scaledQRImage)
+        }
+        return nil
+    }
+    
     func getQRCodeDate(text: String) -> Data? {
-        guard let filter = CIFilter(name: "CIQRCodeGenerator") else { return nil }
-        let data = text.data(using: .ascii, allowLossyConversion: false)
+        //guard let filter = CIFilter(name: "CIQRCodeGenerator") else { return nil }
+        let filter = CIFilter.qrCodeGenerator()
+        let data = text.data(using: .utf8, allowLossyConversion: false)
         filter.setValue(data, forKey: "inputMessage")
         guard let ciimage = filter.outputImage else { return nil }
         let transform = CGAffineTransform(scaleX: 10, y: 10)
@@ -96,7 +104,7 @@ struct ContentView: View {
                         .animation(.easeInOut, value: textToEncode)
                         .focused ($focusedField, equals: .textToEncode)
                 }
-                .navigationTitle(titleText)
+                .navigationTitle("title")
                 .padding(.horizontal)
                 
                 qrview
@@ -110,7 +118,7 @@ struct ContentView: View {
                         Image(systemName: "camera.aperture")
                             .font(.system(size: 19, weight: .medium))
                             .frame(width: 13, height: 19)
-                        Text(saveToPhotosText)
+                        Text("photo")
                             .lineLimit(1)
                             .fontWeight(.bold)
                     }
@@ -125,7 +133,7 @@ struct ContentView: View {
                     .padding(.top)
                     .padding(.horizontal)
                 VStack(alignment: .leading) {
-                    Text(instructionsTitle)
+                    Text("instructionsTitle")
                         .font(.system(size: 13))
                         .fontWeight(.bold)
                         .foregroundColor(.gray)
@@ -134,7 +142,7 @@ struct ContentView: View {
                         .padding(.horizontal)
                         .padding(.bottom)
                     
-                    Text(instructionsText)
+                    Text("instructionsText")
                         .font(.system(size: 12))
                         .foregroundColor(.gray)
                         .padding(.horizontal)
@@ -143,7 +151,7 @@ struct ContentView: View {
                         .padding(.top)
                         .padding(.horizontal)
                     
-                    Text(yourDataTitle)
+                    Text("yourDataTitle")
                         .font(.system(size: 13))
                         .fontWeight(.bold)
                         .underline()
@@ -151,7 +159,7 @@ struct ContentView: View {
                         .padding(.top)
                         .padding(.horizontal)
                     
-                    Text(yourDataText)
+                    Text("yourDataText")
                         .font(.system(size: 12))
                         .foregroundColor(.gray)
                         .padding()
@@ -166,7 +174,7 @@ struct ContentView: View {
                         HStack() {
                             Spacer()
                             
-                            Text(contactText)
+                            Text("contactText")
                                 .font(.system(size: 13))
                                 .fontWeight(.bold)
                                 .underline()
@@ -181,7 +189,7 @@ struct ContentView: View {
                 
                     HStack() {
                         Spacer()
-                        Text("Sebastian Fox")
+                        Text("publisher")
                             .font(.system(size: 12))
                             .fontWeight(.bold)
                             .foregroundColor(.gray)
@@ -191,7 +199,7 @@ struct ContentView: View {
                     
                     HStack() {
                         Spacer()
-                        Text("Version \(version) - 2022")
+                        Text("Version \(nsObject as! String) - \(year)")
                             .font(.system(size: 12))
                             .fontWeight(.bold)
                             .foregroundColor(.gray)
@@ -202,7 +210,7 @@ struct ContentView: View {
                     
                 }
                 
-            }.alert(savedText, isPresented: $showingAlert) {
+            }.alert("savedText", isPresented: $showingAlert) {
                 Button("OK", role: .cancel) { }
             }
             .onAppear(){
@@ -234,7 +242,7 @@ struct MailView: UIViewControllerRepresentable {
     @Environment(\.presentationMode) var presentation
     @Binding var result: Result<MFMailComposeResult, Error>?
     
-    let contactEmail: String = "apps@roxox.de"
+    let contactEmail: String = "apps@hellofox.dev"
     let contactSubject: String = "QR Code Generator Support"
     
     class Coordinator: NSObject, MFMailComposeViewControllerDelegate {

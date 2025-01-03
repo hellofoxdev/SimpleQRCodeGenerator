@@ -1,0 +1,189 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "contactText" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bei Fragen und Anregungen, schickt mir ne E-Mail"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "If you have any questions or suggestions, send me an email."
+          }
+        }
+      }
+    },
+    "instructionsText" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "1. Schreibe den Text, den du im QR Code codiert haben möchtest, in das Textfeld oben. Der QR Code ändert sich direkt während der Eingabe.\\n\\n2. Mit dem Button 'In Fotos speichern' passiert gebau das was drauf steht, der QR Code wird so wie er ist, als Bild, in der 'Fotos' App abgelegt, von dort aus kannst du ihn per Mail, iMessage, WhatsApp oder was auch immer verschicken."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1. Write the text you want to have encoded into a QR code in the text field above. The QR code changes as you type.\\n\\n2. When you click the 'Save to Photos' button, exactly what it is supposed to do happens: the QR code is saved as it is, as an image, in the 'Photos' app. From there you can send it by email, iMessage, WhatsApp or whatever."
+          }
+        }
+      }
+    },
+    "instructionsTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Was musst du machen, um deinen QR Code zu erhalten?"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What do you have to do to get your QR code?"
+          }
+        }
+      }
+    },
+    "OK" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        }
+      }
+    },
+    "photo" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "In Fotos speichern"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save to Photos"
+          }
+        }
+      }
+    },
+    "placeholder" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Was soll codiert werden?"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What should be coded?"
+          }
+        }
+      }
+    },
+    "publisher" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sebastian Fox"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sebastian Fox"
+          }
+        }
+      }
+    },
+    "savedText" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Der QR Code wurde in Fotos gespeichert"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The QR code has been saved to pictures."
+          }
+        }
+      }
+    },
+    "title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "QR Code Generator"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR Code Generator"
+          }
+        }
+      }
+    },
+    "Version %@ - %@" : {
+      "extractionState" : "manual"
+    },
+    "yourDataText" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "... und deswegen speichert die App absolut keine persönlichen Daten, weder in der App, noch auf irgendeinem Server. Lediglich ein Foto von dem QR Code wird in der 'Fotos' App abgelegt, wenn es gewollt ist (ein Screenshot geht natürlich auch)."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "... and that's why the app doesn't store any personal data, neither in the app nor on any server. Only a photo of the QR code is saved in the 'Photos' app if you want it (a screenshot is also possible, of course)."
+          }
+        }
+      }
+    },
+    "yourDataTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Deine Daten sind mir egal ..."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I don't care about your data..."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
