@@ -1,0 +1,774 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "%@" : {
+
+    },
+    "1." : {
+
+    },
+    "2." : {
+
+    },
+    "at" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bei dem "
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "At the "
+          }
+        }
+      }
+    },
+    "Aztec" : {
+
+    },
+    "close" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "schließen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "close"
+          }
+        }
+      }
+    },
+    "Code 128" : {
+
+    },
+    "contact" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontakt"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contact"
+          }
+        }
+      }
+    },
+    "contactText" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Bei Fragen und Anregungen, schickt mir ne E-Mail"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "If you have any questions or suggestions, send me an email."
+          }
+        }
+      }
+    },
+    "freeText" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Die App ist vollkommen kostenfrei. Das bedeutet, sie ist kostenfrei im AppStore, es gibt keine In-App-Käufe, es gibt keine Werbung und - wie oben beschrieben - ich sammle keine Daten und verarbeite oder verkaufe sie."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The app is completely free. This means it is free in the AppStore, there are no in-app purchases, there is no advertising and - as described above - I do not collect, process or sell any personal data."
+          }
+        }
+      }
+    },
+    "information" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Über die App"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "About the App"
+          }
+        }
+      }
+    },
+    "instructionsSavedCodesTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Was ist „Mein Verlauf“?"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What’s \"My History\"?"
+          }
+        }
+      }
+    },
+    "instructionsText1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Schreibe den Text, den du im QR Code codiert haben möchtest, in das Textfeld. Der QR Code ändert sich direkt während der Eingabe. Solange kein Text eingegeben wurde, ist der QR Code dunkel und kann nicht als Foto gespeichert werden."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enter the text you want to have encoded in the QR code into the text field. The QR code changes as you type. As long as no text has been entered, the QR code is dark and cannot be saved as a photo."
+          }
+        }
+      }
+    },
+    "instructionsText2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Mit einem Klick auf „In 'Fotos' App speichern“ passiert genau das was drauf steht, der QR Code wird so wie er ist, als Bild, in der 'Fotos' App abgelegt, von dort aus kannst du ihn per Mail, iMessage, WhatsApp oder was auch immer verschicken."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "When you click the \"Save to 'Photos' App\" button, exactly what it is supposed to do happens: the QR code is saved as it is, as an image, in the 'Photos' app. From there you can send it by email, iMessage, WhatsApp or whatever."
+          }
+        }
+      }
+    },
+    "instructionsText3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Unter „Mein Verlauf“ findest du bis zu 100 deiner zuletzt erstellen QR Codes.  Mit einem Klick auf den Eintrag, wird das Textfeld automatisch mit dem jeweiligen Text gefüllt. Nun kannst du den QR Code erneut als Foto speichern. Wenn nötig kannst du natürlich noch Anpassungen vorher machen. "
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Under \"My History\" you will find up to 100 of your most recently created QR codes. If you click on the entry, the text field is automatically filled with the relevant text. You can now save the QR code again as a photo. If necessary, you can of course make adjustments beforehand."
+          }
+        }
+      }
+    },
+    "instructionsTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Was musst du machen, um deinen QR Code zu erhalten?"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What do you have to do to get your QR code?"
+          }
+        }
+      }
+    },
+    "introduction" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : ". Einem QR Code Generator, der genau das macht, was er soll, nicht mehr und nicht weniger."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ". A QR code generator that does exactly what it's supposed to, no more and no less."
+          }
+        }
+      }
+    },
+    "letsGo" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Auf geht’s"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Let’s go"
+          }
+        }
+      }
+    },
+    "newDesign" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Neues Design"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New Design"
+          }
+        }
+      }
+    },
+    "newFunction" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Neue Funktionen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New Features"
+          }
+        }
+      }
+    },
+    "noDataText" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ich habe keine Interesse an deinen Daten, weder zur Verarbeitung, noch zum Verkauf. Deswegen sammelt die App auch keinerlei persönliche Daten von dir."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I have no interest in your data, neither for processing nor for selling. That's why the app does not collect any personal data from you."
+          }
+        }
+      }
+    },
+    "noDataText2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Deine Daten bleiben deine Daten und bleiben bei dir."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your data remains your data and stays with you."
+          }
+        }
+      }
+    },
+    "noSavedCodes" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Es gibt noch keine gespeicherten Codes in deinem Verlauf."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "There are no saved codes in your history yet"
+          }
+        }
+      }
+    },
+    "nowInVersion" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Jetzt in der Version"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Now in version"
+          }
+        }
+      }
+    },
+    "OK" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        }
+      }
+    },
+    "photo" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In 'Fotos' App speichern"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save in Photos App"
+          }
+        }
+      }
+    },
+    "placeholder" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Hier den Text eingeben, der codiert werden soll."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enter here the text to be encoded."
+          }
+        }
+      }
+    },
+    "publisher" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sebastian Fox"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sebastian Fox"
+          }
+        }
+      }
+    },
+    "QR" : {
+
+    },
+    "savedCodes" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Mein Verlauf"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "My History"
+          }
+        }
+      }
+    },
+    "savedCodesInstructions" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Hier findest du die Texte von bis zu 100 deiner letzten gespeicherten QR Codes. Wähle einen aus und erstelle dir ein neues Bild davon in deiner 'Fotos' App. Du kannst (natürlich) auch einzelne Einträge löschen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Here you find the texts of up to 100 of your most recently saved QR codes. Select a code and create a new image of in in your 'Photos' app. You can (of course) also delete individual entries."
+          }
+        }
+      }
+    },
+    "savedText" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Der QR Code wurde in der Fotos App gespeichert"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The QR code has been saved to the Photos App."
+          }
+        }
+      }
+    },
+    "stillFree" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Immer noch vollkommen kostenfrei"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Still totally free"
+          }
+        }
+      }
+    },
+    "stillNoData" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Immer noch habe ich kein Interesse an deinen Daten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I still have no interest in your data"
+          }
+        }
+      }
+    },
+    "title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "QR Code Generator"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QR Code Generator"
+          }
+        }
+      }
+    },
+    "titleLong" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Einfachen QR Code Generator"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Simple QR Code Generator"
+          }
+        }
+      }
+    },
+    "update1Text" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Das Design wurde einmal grundlegend überarbeitet, um mal etwas frischen Wind in die App zu bringen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The design has been fundamentally revised to bring some fresh air into the app."
+          }
+        }
+      }
+    },
+    "update1Title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Design Update"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Design Update"
+          }
+        }
+      }
+    },
+    "update2Text" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unter „Mein Verlauf“ können die Texte von bis zu 100 der letzten gespeicherten Codes nachgeschaut werden. Die Texte können per Klick in das Textfeld übernommen, bei Bedarf bearbeitet und als neues Bild in die Fotos App gespeichert werden."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Under \"My History\" you can now view the texts of up to 100 of the most recently saved codes. The texts can be copied into the text field by clicking on them, edited if necessary and saved as a new image in the 'Photos' app."
+          }
+        }
+      }
+    },
+    "update2Title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Speicherung der Verlaufs"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saving the history"
+          }
+        }
+      }
+    },
+    "update3Text" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Die Texte sind nun auch in Englisch übersetzt und somit ist die App ab sofort auch in den AppStores in weiteren Ländern verfügbar."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The texts have now also been translated into English and the app is now also available in the AppStores in other countries."
+          }
+        }
+      }
+    },
+    "update3Title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Englische Sprache"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "English language"
+          }
+        }
+      }
+    },
+    "version" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Version"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version"
+          }
+        }
+      }
+    },
+    "Version %@ - %@" : {
+      "extractionState" : "manual"
+    },
+    "welcome" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Willkommen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welcome"
+          }
+        }
+      }
+    },
+    "whatsNew" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Was ist neu in Version"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What's new in version"
+          }
+        }
+      }
+    },
+    "whatsOld" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Was ist beim Alten geblieben"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What has remained the same"
+          }
+        }
+      }
+    },
+    "yourCode" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mein QR Code"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "My QR Code"
+          }
+        }
+      }
+    },
+    "yourDataText1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "... und deswegen sammelt und speichert die App absolut keine persönlichen Daten von dir aus deinem iPhone, weder in der App, noch auf irgendeinem Server. "
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "... and that's why the app doesn't store any personal data, neither in the app nor on any server. "
+          }
+        }
+      }
+    },
+    "yourDataText2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Mit einem Klick auf „In 'Fotos' App speichern“ wird lediglich ein Foto von dem QR Code in der 'Fotos' App gespeichert (alternativ geht natürlich auch ein Screenshot) und der codierte Text wird einer Liste (Verlauf) hinzugefügt, damit er unter \"Mein Verlauf\" wieder gefunden und wieder verwendet werden kann. Diese List befindet sich auf deinem Telefon und wird nicht auf einem Server gespeichert. Die Einträge der Liste können individuell gelöscht werden."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A click on \"Save to 'Photos' App\", saves a picture of the QR code in the 'Photos' app (alternatively, a screenshot is also possible) and the encoded text is added to a list (history) so that it can be found and used again under \"My History\". This list is on your phone and is not saved on a server. The entries in the list can be deleted individually."
+          }
+        }
+      }
+    },
+    "yourDataTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Deine Daten sind mir egal ..."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I don't care about your data..."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
