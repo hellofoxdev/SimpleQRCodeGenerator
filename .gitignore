@@ -1,45 +1,82 @@
-# Compiled source #
-###################
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.so
-
-# Packages #
-############
-# it's better to unpack these files and commit the raw source
-# git has its own built in compression methods
-*.7z
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
-
-# Logs and databases #
-######################
-*.log
-*.sql
-*.sqlite
-
-# OS generated files #
-######################
+# macOS and other operating-system metadata
 .DS_Store
 .DS_Store?
 ._*
+.AppleDouble
+.LSOverride
 .Spotlight-V100
 .Trashes
-ehthumbs.db
 Thumbs.db
-*.xcworkspace
-project
-.project
+ehthumbs.db
 
+# Xcode user settings, local state, and build output
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+DerivedData/
+build/
+*.hmap
+*.xcresult
+*.xccrashpoint
+*.xcarchive
+*.xcdistributionlogs
+*.ipa
+*.dSYM
+*.dSYM.zip
 
-# Google Stuff
-######################
-*.plist
+# Downloaded dependencies and generated Swift package output
+.build/
+Pods/
+Carthage/Build/
+
+# Private signing material and provisioning profiles
+*.p8
+*.p12
+*.pfx
+*.pem
+*.key
+*.keychain
+*.keychain-db
+*.mobileprovision
+*.provisionprofile
+*.jks
+*.keystore
+
+# Local credentials and service configuration; keep sanitized templates
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+.secrets/
+*.local.xcconfig
+Secrets.xcconfig
+Private.xcconfig
+GoogleService-Info.plist
+credentials.json
+service-account*.json
+*-service-account.json
+*firebase-adminsdk*.json
+
+# Local app databases and their journal files
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.store
+*.store-*
+
+# Logs and editor temporary files
+*.log
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Keep app Info.plist files, shared Xcode project/workspace configuration,
+# asset catalogs, shared schemes, and dependency lockfiles in version control.

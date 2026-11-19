@@ -1,0 +1,9 @@
+{
+  "id" : "c53ddb03-3cd3-4dee-8e6e-e70c4215a810",
+  "targets" : [
+    {
+      "id" : "C6809FAA-A629-493C-809A-42ED61BB5C66",
+      "name" : "QR Code"
+    }
+  ]
+}
